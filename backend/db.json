@@ -1,0 +1,327 @@
+{
+  "users": [
+    {
+      "id": "user-demo-seeker",
+      "name": "Demo Seeker",
+      "email": "demo_user",
+      "password": "$2a$10$FGj3nG5vIfqPvzh/2r7ey.5Gbm8/YQXl3Mr6NaGKLWYSy6ziM55Na",
+      "role": "seeker",
+      "status": "active",
+      "resumePath": null,
+      "resumeName": null
+    },
+    {
+      "id": "user-demo-employer",
+      "name": "Acme Corp (Demo)",
+      "email": "demo_employer",
+      "password": "$2a$10$FGj3nG5vIfqPvzh/2r7ey.5Gbm8/YQXl3Mr6NaGKLWYSy6ziM55Na",
+      "role": "employer",
+      "status": "active",
+      "verified": true
+    },
+    {
+      "id": "user-demo-admin",
+      "name": "Platform Admin",
+      "email": "admin",
+      "password": "$2a$10$SeiAu2C4NHcSCsuwTwDFkORw/EcxiadEWx3x.u3e88yn0jvMg8iuS",
+      "role": "admin",
+      "status": "active"
+    },
+    {
+      "id": "user-employer-1",
+      "name": "Acme Corp (Employer)",
+      "email": "employer@test.com",
+      "password": "$2a$10$R9h/lIPzNgbC.VODwZqRDO1m7L7r7Vf6P0u1Z5v0/2.kS0Yh9wFhK",
+      "role": "employer",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "user-seeker-1",
+      "name": "John Doe (Seeker)",
+      "email": "seeker@test.com",
+      "password": "$2a$10$R9h/lIPzNgbC.VODwZqRDO1m7L7r7Vf6P0u1Z5v0/2.kS0Yh9wFhK",
+      "role": "seeker",
+      "status": "active",
+      "resumePath": null,
+      "resumeName": null
+    },
+    {
+      "id": "user-1780049152894",
+      "name": "adithya",
+      "email": "adhi@gmail.com",
+      "password": "$2a$10$MT60kApdM40hHEgxhRjpRe2aOu8Q/XJ/S7C8K5zUfGxhOVKS2clMy",
+      "role": "employer",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "user-1780059623488",
+      "name": "Ria Robin",
+      "email": "riarobin252005@gmail.com",
+      "password": "$2a$10$x6BaL.61xZGCJMVNIt0XJ.XBdkTf2Ly9leGVfdqVtJgoqaicfTSqu",
+      "role": "employer",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "user-1780059692029",
+      "name": "priyarobin",
+      "email": "priyarobin3@gmail.com",
+      "password": "$2a$10$DRl6UiA0l/1i/lunQoydyOMLWCU3Q7A88lHJjrc7zIdFesTl68qhq",
+      "role": "seeker",
+      "status": "active",
+      "resumePath": null,
+      "resumeName": null
+    },
+    {
+      "id": "user-1780064933276",
+      "name": "rugbfng",
+      "email": "riacngnh@gmail.com",
+      "password": "$2a$10$fw4kc1tCGi3Wi6iqieMrKuMiaRK9S5nbbOBvypJ44kh2saCUXykDK",
+      "role": "employer",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "user-1780403553029",
+      "name": "retyry",
+      "email": "thetyrtyr@gmail.com",
+      "password": "$2a$10$kB/8xM3dzc96qckIrRqJleoLD/XQLUiYAtF75w/tWvW.DKe7hCjyO",
+      "role": "seeker",
+      "status": "active",
+      "resumePath": null,
+      "resumeName": null
+    },
+    {
+      "id": "user-1780403630636",
+      "name": "htrjtrj",
+      "email": "dhthfj@gmail.com",
+      "password": "$2a$10$IAjWmDg9SlwiFSuwlLfmvO1FgVjmAI8if77XFzDFmdAfijDpUnVMy",
+      "role": "employer",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "user-1780757204028",
+      "name": "rhea",
+      "email": "rhearobin@gmail.com",
+      "password": "$2a$10$WPiM8xJCZ4EYhEPeO/LY3O2UNuII/ylhwYcksfRnKoOucp7MdMQfK",
+      "role": "seeker",
+      "status": "active",
+      "resumePath": null,
+      "resumeName": null
+    },
+    {
+      "id": "user-1780757255422",
+      "name": "rahul",
+      "email": "rahul@gmail.com",
+      "password": "$2a$10$D1kQWf9H6nDjqO/zT0mpgOYYBXI9F.Kki7MXj.j5CZf51mEOuzbLK",
+      "role": "employer",
+      "status": "suspended",
+      "verified": false
+    }
+  ],
+  "jobs": [
+    {
+      "id": "job-1",
+      "title": "Senior Frontend Developer (React)",
+      "company": "TechVibe Solutions",
+      "location": "New York, NY",
+      "salary": 125000,
+      "skills": [
+        "React",
+        "JavaScript",
+        "CSS",
+        "HTML",
+        "Vite"
+      ],
+      "duration": "full-time",
+      "workplaceType": "online",
+      "description": "We are seeking a talented Senior Frontend Developer with expertise in building responsive, high-performance web applications using React. You will work on user-facing modules and design systems, optimizing for speed and scale. Experience with modern bundling tools like Vite and custom Vanilla CSS styling is highly valued.",
+      "postedBy": "user-employer-1",
+      "createdAt": "2026-05-29T10:00:00.000Z",
+      "experienceLevel": "senior",
+      "education": "Bachelor's",
+      "jobType": "full-time"
+    },
+    {
+      "id": "job-2",
+      "title": "Junior UX/UI Designer",
+      "company": "CreativeMinds Studio",
+      "location": "San Francisco, CA",
+      "salary": 75000,
+      "skills": [
+        "Figma",
+        "HTML",
+        "CSS",
+        "Design-Systems"
+      ],
+      "duration": "full-time",
+      "workplaceType": "offline",
+      "description": "Join our creative design agency as a Junior UX/UI Designer. You will collaborate with product managers and engineers to build wireframes, visual mockups, and interactive prototypes. Basic knowledge of HTML and CSS is required to bridge the gap between design and developer handoffs.",
+      "postedBy": "user-employer-1",
+      "createdAt": "2026-05-29T10:30:00.000Z",
+      "experienceLevel": "entry",
+      "education": "High School",
+      "jobType": "full-time"
+    },
+    {
+      "id": "job-3",
+      "title": "Backend Node.js Engineer",
+      "company": "DataStream Systems",
+      "location": "Austin, TX",
+      "salary": 110000,
+      "skills": [
+        "Node.js",
+        "Express",
+        "REST-API",
+        "JavaScript",
+        "Security"
+      ],
+      "duration": "full-time",
+      "workplaceType": "online",
+      "description": "We are hiring a Node.js Developer to join our backend systems team. You will design, build, and support REST APIs that handle thousands of active requests per minute. Understanding of data persistence, memory caching, JWT authentication, and backend security protocols is required.",
+      "postedBy": "user-employer-1",
+      "createdAt": "2026-05-29T11:00:00.000Z",
+      "experienceLevel": "mid",
+      "education": "Bachelor's",
+      "jobType": "full-time"
+    },
+    {
+      "id": "job-4",
+      "title": "Contract React Native Developer",
+      "company": "Mobilize Inc",
+      "location": "Remote",
+      "salary": 90000,
+      "skills": [
+        "React-Native",
+        "JavaScript",
+        "TypeScript",
+        "iOS",
+        "Android"
+      ],
+      "duration": "contract",
+      "workplaceType": "online",
+      "description": "We need a skilled React Native developer for a 6-month contract to refine and publish our cross-platform mobile app. You will debug rendering lags, implement smooth animations, and hook up push notifications for iOS and Android.",
+      "postedBy": "user-employer-1",
+      "createdAt": "2026-05-29T11:15:00.000Z",
+      "experienceLevel": "mid",
+      "education": "Bachelor's",
+      "jobType": "contract"
+    },
+    {
+      "id": "job-5",
+      "title": "Part-Time Web Developer",
+      "company": "Global Education Portal",
+      "location": "Boston, MA",
+      "salary": 45000,
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React"
+      ],
+      "duration": "part-time",
+      "workplaceType": "offline",
+      "description": "Looking for a part-time developer to help maintain our school information portal. This role involves updating event announcements, managing feedback forms, and ensuring mobile responsiveness. Flexible working hours (20 hours per week).",
+      "postedBy": "user-employer-1",
+      "createdAt": "2026-05-29T11:30:00.000Z",
+      "experienceLevel": "entry",
+      "education": "Bachelor's",
+      "jobType": "part-time"
+    },
+    {
+      "id": "job-1780064999167",
+      "title": "marketing manager",
+      "company": "rugbfng",
+      "location": "chennai",
+      "salary": 200000,
+      "skills": [
+        "digital marketing"
+      ],
+      "duration": "full-time",
+      "workplaceType": "offline",
+      "description": "good communication skills,soft skills,technical skills",
+      "postedBy": "user-1780064933276",
+      "createdAt": "2026-05-29T14:29:59.167Z",
+      "experienceLevel": "mid",
+      "education": "Bachelor's",
+      "jobType": "full-time"
+    },
+    {
+      "id": "job-1780065346660",
+      "title": "data analyst",
+      "company": "rugbfng",
+      "location": "banglore",
+      "salary": 400000,
+      "skills": [
+        "react",
+        "javascript"
+      ],
+      "duration": "full-time",
+      "workplaceType": "offline",
+      "description": "good coding skills",
+      "postedBy": "user-1780064933276",
+      "createdAt": "2026-05-29T14:35:46.660Z",
+      "experienceLevel": "entry",
+      "education": "Master's",
+      "jobType": "full-time"
+    },
+    {
+      "id": "job-1780757343299",
+      "title": "graphic designer",
+      "company": "invento",
+      "location": "canada",
+      "salary": 5000000,
+      "skills": [
+        "react",
+        "javascript"
+      ],
+      "duration": "full-time",
+      "workplaceType": "online",
+      "description": "designing",
+      "postedBy": "user-1780757255422",
+      "createdAt": "2026-06-06T14:49:03.299Z",
+      "experienceLevel": "entry",
+      "education": "Bachelor's",
+      "jobType": "full-time"
+    }
+  ],
+  "applications": [
+    {
+      "id": "app-1780403577050",
+      "jobId": "job-3",
+      "userId": "user-1780403553029",
+      "userName": "retyry",
+      "userEmail": "thetyrtyr@gmail.com",
+      "appliedAt": "2026-06-02T12:32:57.051Z",
+      "status": "Applied",
+      "statusHistory": [
+        {
+          "status": "Applied",
+          "changedAt": "2026-06-02T12:32:57.051Z",
+          "note": "Initial application submitted."
+        }
+      ]
+    },
+    {
+      "id": "app-1780757222592",
+      "jobId": "job-2",
+      "userId": "user-1780757204028",
+      "userName": "rhea",
+      "userEmail": "rhearobin@gmail.com",
+      "appliedAt": "2026-06-06T14:47:02.592Z",
+      "status": "Applied",
+      "statusHistory": [
+        {
+          "status": "Applied",
+          "changedAt": "2026-06-06T14:47:02.592Z",
+          "note": "Initial application submitted."
+        }
+      ]
+    }
+  ],
+  "interviews": [],
+  "messages": []
+}
